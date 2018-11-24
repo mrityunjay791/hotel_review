@@ -1,0 +1,80 @@
+/* for search box */
+.searchDiv {
+	margin-right: 180px;
+	margin-left: 130px;
+	padding-left: 20px;
+	margin-top: 10px;
+	transform: scale(1.8);
+}
+/* for search button */
+.searchBtn {
+	transform: scale(1.2);
+}
+
+.imageDiv {
+	margin-right: 50px;
+}
+
+/* for right side section div */
+.descriptionDiv {
+	border-left: 1px solid gray;
+	padding-left: 10px;
+}
+
+/*footer div */
+.footerDiv {
+	padding-left: 20px;
+	background-color: cornsilk;
+}
+
+.vertical-center {
+	min-height: 100%;
+	min-height: 100vh; /* for Center alignment.   */
+	display: flex;
+	align-items: center;
+}
+
+/*for button */
+.custom-but {
+	width: 100px;
+}
+
+.btn-signin {
+	background: #2F3030;
+}
+
+/* forgote password color? */
+.graycolor {
+	color: #2F3030;
+}
+
+/*hotel template css */
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {
+	height: 1500px
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+	background-color: #f1f1f1;
+	height: 150%;
+}
+
+/* for Image Size */
+.item {
+	height: 400px;
+	width: 960px;
+}
+/* End ImageSize */
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+	.sidenav {
+		height: auto;
+		padding: 15px;
+	}
+	.row.content {
+		height: auto;
+	}
+}
